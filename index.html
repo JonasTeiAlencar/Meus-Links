@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="sweetalert2/dist/sweetalert2.min.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/avatar.png" alt="Foto de Jonas Teixeira." />
+        <p>@JonasTeixeira</p>
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a href="" class="nao-pronto" onclick="naoPronto()"
+              >Veja meu portifolio</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://jonasteialencar.github.io/Challenge-Cripto/"
+              target="_blank"
+              >Decodificador</a
+            >
+          </li>
+          <li>
+            <a href="https://calendariodacopa.netlify.app/" target="_blank"
+              >Calendario da Copa de 2022</a
+            >
+          </li>
+          <li>
+            <a href="" class="nao-pronto" onclick="naoPronto()"
+              >Projeto do NLW</a
+            >
+          </li>
+          <li>
+            <a href="" class="nao-pronto" onclick="naoPronto()"
+              >Player de Musica</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div id="social-links">
+        <a href="https://github.com/JonasTeiAlencar" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/jonasteixeiraa_/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/jonas-teixeira-b69716209/"
+          target="_blank"
+        >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        <p>Feito com ♥ por Jonas Teixeira</p>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+
+    <script src="sweetalert2/dist/sweetalert2.min.js"></script>
+  </body>
+</html>
